@@ -4,17 +4,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ProfileModule} from './profile/profile.module';
+import { ColoredDirective } from './colored.directive';
+import { LoggerService } from './logger.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColoredDirective
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ProfileModule
   ],
-  providers: [],
+  providers: [LoggerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
