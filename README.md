@@ -2,6 +2,8 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
+It presented during [JLP](http://jlp.community) event on December 2016. See the slides [here](https://docs.google.com/presentation/d/1Wmbu2HSXMrrXrBnB-0clXuv4JhTaFv3AnTVHpNxE1ns/edit?usp=sharing).
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
